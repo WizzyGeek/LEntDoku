@@ -32,6 +32,13 @@ furthermore this horribly written Python OOP code ran in just 0.017 seconds beat
 (which is not even the goal of this experiment) and beat plain DFS by **125x less pops!** (we dont compare appends, as there is a minimum value
 required for appends without which the stack doesn't grow)
 
+also a part of tdoku tests were ran, and only the least entropy sudoku solver could
+solve them within time, with worst time being 17 seconds, 57316 pops
+while DFS got stuck on the 9th test.
+
+For the immediate goals, optimising the entropy calculation and making it more
+accurate.
+
 ## More accurate entropy calculation
 currently we treat all possibilities as having equal chance but that is not
 true apart from the board state, the other information we have is the distribution
