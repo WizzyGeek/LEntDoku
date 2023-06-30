@@ -1,0 +1,32 @@
+..5..6...
+.28..3...
+..3.9.56.
+.87.....5
+.9.3.7.8.
+1.....79.
+.71.6.3..
+...4..15.
+...8..9..
+
+915246837
+628753419
+743198562
+387619245
+594327681
+162584793
+471965328
+839472156
+256831974
+
+Number of Givens: 28
+Number of Singles: 42
+Number of Hidden Singles: 10
+Number of Naked Pairs: 4
+Number of Hidden Pairs: 0
+Number of Pointing Pairs/Triples: 1
+Number of Box/Line Intersections: 0
+Number of Guesses: 1
+Number of Backtracks: 0
+Difficulty: Expert
+
+https://qqwing.com/generate.html
