@@ -7,12 +7,12 @@ compared to a sequential order
 
 ## TODO
 
-[ ] Soldify theory (Calculations have a lot of combinatronics and informatin theory, help wanted)
-[ ] Optimise Implementation
-[ ] Implement in C++
-[ ] Optimise Implementation
-[ ] Statistically Benchmark the appends and pop operation counts over a huge dataset
-[ ] Hypothesis testing
+- [ ] Soldify theory (Calculations have a lot of combinatronics and informatin theory, help wanted)
+- [ ] Optimise Implementation
+- [ ] Implement in C++
+- [ ] Optimise Implementation
+- [ ] Statistically Benchmark the appends and pop operation counts over a huge dataset
+- [ ] Hypothesis testing
 
 ## Observations Till now
 
