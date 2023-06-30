@@ -18,7 +18,7 @@ class Board:
 
     def __init__(self):
         self.board = np.zeros((9,9), dtype=np.uint8)
-        self.pmap = np.ones((9, 9, 9), dtype=np.int8) # (9 * 9 grid of 9 ints) max is 1, min is -1
+        self.pmap = np.ones((9, 9, 9), dtype=np.int8) # (9 * 9 grid of 9 ints) max is 1, min is -2
 
     def _play_move(self, num: int,  row: int, col: int):
         rq, cq = calc_quadrant(row, col)
@@ -45,7 +45,7 @@ class Board:
         # and log is proportional to possibilities
         m = None
         mi = 10
-        for i, b, y in zip(self.pmap.sum(axis=2), self.board, range(9)):
+        for i, b, y in zip((self.pmap > 0).sum(axis=2), self.board, range(9)):
             for j, c, x in zip(i, b, range(9)):
                 if c != 0: continue
                 if mi > j:
